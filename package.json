@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@types/node": "^20.14.5",
-    "antd": "^4.24.16",
+    "antd": "4",
     "autoprefixer": "^10.4.19",
     "axios": "^1.7.2",
     "postcss-px-to-viewport-8-plugin": "^1.2.5",
