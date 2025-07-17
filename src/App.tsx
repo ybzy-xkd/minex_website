@@ -8,7 +8,7 @@ function AppRouters () {
 function App() {
 
   return (
-    <Layout>
+    <Layout style={{width:'100%',height:'100%'}}>
       <BrowserRouter>
         <AppRouters />
       </BrowserRouter>
