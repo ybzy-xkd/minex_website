@@ -114,25 +114,25 @@
       padding-left: 24px;
       .introduce {
         width: 60vw;
-        font-size: 35px;
+        font-size: 45px;
         .ease{
           position: relative;
           .cornerMark {
             position: absolute;
-            bottom: -12px;
-            left: -6px;
-            width: 100px;
-            height: 42px;
+            bottom: -18px;
+            left: 3px;
+            width: 120px;
+            height: 50px;
           }
         }
       }
       .tips {
         width: 60vw;
-        font-size: 15px;
+        font-size: 25px;
         height: auto;
       }
       .downloadContent {
-        width: 150px;
+        width: 200px;
         .download {
           width: 100%;
           cursor: pointer;
@@ -141,7 +141,7 @@
       }
     }
     .handContent .hand {
-      width: 40vw;
+      width: 600px;
       height: auto;
     }
   }
