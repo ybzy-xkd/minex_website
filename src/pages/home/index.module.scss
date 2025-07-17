@@ -104,25 +104,25 @@
     .head {
       padding: 24px 24px;
       .logoContent .title {
-        font-size: 41px;
+        font-size: 38px;
       }
       .navigationBar .bar {
-        font-size: 32px;
+        font-size: 28px;
       }
     }
     .content {
       padding-left: 24px;
       .introduce {
         width: 60vw;
-        font-size: 45px;
+        font-size: 55px;
         .ease{
           position: relative;
           .cornerMark {
             position: absolute;
             bottom: -18px;
-            left: 3px;
-            width: 120px;
-            height: 50px;
+            left: 18px;
+            width: 130px;
+            height: auto;
           }
         }
       }
@@ -170,7 +170,7 @@
             bottom: -12px;
             left: -6px;
             width: 100px;
-            height: 42px;
+            height: auto;
           }
         }
       }
