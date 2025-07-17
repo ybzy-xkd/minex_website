@@ -26,8 +26,8 @@ function Home() {
       <div className={styles.content}>
           <div className={styles.introduce}>
               Remote Computing
-              Power: Manage with Ease
-              <img src={cornerMark} alt={"cornerMark"} className={styles.cornerMark}/>
+              Power: Manage with <span className={styles.ease}>Ease <img src={cornerMark} alt={"cornerMark"} className={styles.cornerMark}/></span>
+
           </div>
           <div className={styles.tips}>
               Earn Bitcoin effortlessly with MineX—a cloud-based mining tool for remote Miner management. Get free or paid Miners, sit back, and let them work for you 24/7. Withdraw your BTC earnings straight to your wallet with ease!

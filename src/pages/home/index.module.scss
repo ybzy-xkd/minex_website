@@ -1,9 +1,12 @@
 .page {
-  width: 100%;
+  width: 100vw;
+  min-height: 100vh;
   background-image: url("public/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
+  overflow: hidden;
   .head{
     display: flex;
     align-items: center;
@@ -89,9 +92,173 @@
     bottom: 0;
     right: 45px;
     .hand{
-      height: 1000px;
-      width: 850px;
+      width: 400px;
+      height: auto;
       object-fit: cover;
     }
   }
 }
+
+@media (min-width: 1600px) {
+  .page {
+    .head {
+      padding: 24px 24px;
+      .logoContent .title {
+        font-size: 41px;
+      }
+      .navigationBar .bar {
+        font-size: 32px;
+      }
+    }
+    .content {
+      padding-left: 24px;
+      .introduce {
+        width: 60vw;
+        font-size: 35px;
+        .ease{
+          position: relative;
+          .cornerMark {
+            position: absolute;
+            bottom: -12px;
+            left: -6px;
+            width: 100px;
+            height: 42px;
+          }
+        }
+      }
+      .tips {
+        width: 60vw;
+        font-size: 15px;
+        height: auto;
+      }
+      .downloadContent {
+        width: 150px;
+        .download {
+          width: 100%;
+          cursor: pointer;
+          height: auto;
+        }
+      }
+    }
+    .handContent .hand {
+      width: 40vw;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .page {
+    .head {
+      padding: 24px 24px;
+      .logoContent .title {
+        font-size: 32px;
+      }
+      .navigationBar .bar {
+        font-size: 24px;
+      }
+    }
+    .content {
+      padding-left: 24px;
+      .introduce {
+        width: 60vw;
+        font-size: 35px;
+        .ease{
+          position: relative;
+          .cornerMark {
+            position: absolute;
+            bottom: -12px;
+            left: -6px;
+            width: 100px;
+            height: 42px;
+          }
+        }
+      }
+      .tips {
+        width: 60vw;
+        font-size: 15px;
+        height: auto;
+      }
+      .downloadContent {
+        width: 150px;
+        .download {
+          width: 100%;
+          cursor: pointer;
+          height: auto;
+        }
+      }
+    }
+    .handContent .hand {
+      width: 36vw;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 5vw;
+    .head {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 16px 8px;
+      .logoContent {
+        .logo {
+          width: 40px;
+          height: 40px;
+        }
+        .title {
+          font-size: 20px;
+        }
+      }
+      .navigationBar {
+        margin-top: 2vh;
+        gap: 24px;
+        .bar {
+          font-size: 16px;
+        }
+      }
+    }
+    .content {
+      padding-left: 8px;
+      margin-top: 40px;
+      .introduce {
+        width: 80vw;
+        font-size: 24px;
+        .ease{
+          position: relative;
+          .cornerMark {
+            position: absolute;
+            bottom: -10px;
+            left: 6px;
+            width: 60px;
+            height: 24px;
+          }
+        }
+
+      }
+      .tips {
+        width: 80vw;
+        font-size: 12px;
+        margin-top: 16px;
+      }
+      .downloadContent {
+        width: 20vw;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        .download {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .handContent {
+      right: 5vw;
+      .hand {
+        width: 55vw;
+        height: auto;
+      }
+    }
+  }
+}
+
